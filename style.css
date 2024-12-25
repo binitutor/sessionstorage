@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: #e2e2e2;
+    font-family: "Parkinsans", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.container {
+    padding: 10%;
+    border: 1px solid #333;
+    border-radius: 25px;
+    margin: 10% 20%;
+    background: #f6f5f5;
+}
+
+.container h1 {
+    text-align: center;
+    color: #333;
+}
+
+.container fieldset {
+    border-radius: 25px;
+    padding: 5%;
+    border: #333 solid 2px;
+}
+
+.container input {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 10%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0 50px 0;
+    border: 1px solid #ccc;
+    color: #fff;
+    cursor: pointer;
+    background: #333;
+}
+
+button:hover {
+    background: #444;
+}
+
+.container p span {
+    color: rgb(163, 109, 38);
+    font-weight: 600;
+}
